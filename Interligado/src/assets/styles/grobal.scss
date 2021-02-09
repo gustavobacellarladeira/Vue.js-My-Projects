@@ -1,0 +1,29 @@
+// basicos
+
+cores {
+  --cor-verde: #42b983;
+  ---amaraleo: #e2c764;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.title-dashboard {
+  color: rgb(0, 0, 0);
+  margin: 20px 0px 30px 0;
+}
