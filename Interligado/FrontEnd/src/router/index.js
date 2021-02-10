@@ -25,45 +25,45 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta: {
-      requiresVisitor: true,
-    },
+    // meta: {
+    //   requiresVisitor: true,
+    // },
     component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
   },
 
   {
     path: '/login',
     name: 'Login',
-    meta: {
-      requiresVisitor: true,
-    },
+    // meta: {
+    //   requiresVisitor: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../components/auth/Login')
   },
   {
     path: '/cadastrofrigorifico',
     name: 'CadastroFrigorifico',
-    meta: {
-      requiresVisitor: true,
-    },
+    // meta: {
+    //   requiresVisitor: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../components/auth/CadastroFrigorifico.vue')
   },
   {
     path: '/cadastropecuarista',
     name: 'CadastroPecuarista',
-    meta: {
-      requiresVisitor: true,
-    },
+    // meta: {
+    //   requiresVisitor: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../components/auth/CadastroPecuarista.vue')
   },
   {
     path: '/escolhercadastro',
     name: 'EscolherCadastro',
-    meta: {
-      requiresVisitor: true,
-    },
+    // meta: {
+    //   requiresVisitor: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../components/EscolherCadastro.vue')
   },
@@ -74,9 +74,9 @@ const routes = [
   {
     path: '/logout',
     name: 'Logout',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../components/auth/Logout')
   },
@@ -87,18 +87,18 @@ const routes = [
   {
     path: '/frigorifico',
     name: 'FrigorificoHome',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../views/FrigorificoHome.vue')
   },
   {
     path: '/perfilfrigorifico',
     name: 'PerfilFrigorifico',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
     component: () => import(/* webpackChunkName: "about" */ '../views/PerfilFrigorifico.vue')
   },
 
@@ -108,26 +108,26 @@ const routes = [
   {
     path: '/pecuarista',
     name: 'PecuaristaHome',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
 
     component: () => import(/* webpackChunkName: "about" */ '../views/PecuaristaHome.vue')
   },
   {
     path: '/perfilpecuarista',
     name: 'PerfilPecuarista',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
     component: () => import(/* webpackChunkName: "about" */ '../views/PerfilPecuarista.vue')
   },
   {
     path: '/meusanimais',
     name: 'MeusAnimais',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
     component: () => import(/* webpackChunkName: "about" */ '../views/MeusAnimais.vue')
   },
   // PECUARISTA ROTA
@@ -137,9 +137,9 @@ const routes = [
   {
     path: '/cadastraranimal',
     name: 'CadastrarAnimal',
-    meta: {
-      requiresAuth: true,
-    },
+    // meta: {
+    //   requiresAuth: true,
+    // },
     component: () => import(/* webpackChunkName: "about" */ '../views/CadastrarAnimal.vue')
   },
 

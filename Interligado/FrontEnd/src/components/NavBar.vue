@@ -8,7 +8,6 @@
       </div>
       <div class="nav-bar-btn">
         <vs-button
-          v-if="!loggedIn"
           to="/sobrenos"
           class="nav-btn"
           color="white"
@@ -17,7 +16,6 @@
           >Sobre Nós</vs-button
         >
         <vs-button
-          v-if="!loggedIn"
           to="/escolhercadastro"
           class="nav-btn"
           color="white"
@@ -26,7 +24,6 @@
           >Criar minha conta</vs-button
         >
         <vs-button
-          v-if="!loggedIn"
           to="/login"
           class="nav-btn"
           color="white"
@@ -36,7 +33,6 @@
         >
 
         <vs-button
-          v-if="getFrigo"
           to="/perfilfrigorifico"
           class="nav-btn"
           color="white"
@@ -46,7 +42,6 @@
         >
 
         <vs-button
-          v-if="getPecu"
           to="/perfilpecuarista"
           class="nav-btn"
           color="white"
@@ -74,20 +69,16 @@
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item>
-            <router-link v-if="!loggedIn" to="/sobrenos"
-              >Sobre Nós</router-link
-            ></b-nav-item
+            <router-link to="/sobrenos">Sobre Nós</router-link></b-nav-item
           >
 
           <b-nav-item>
-            <router-link v-if="!loggedIn" to="/escolhercadastro"
+            <router-link to="/escolhercadastro"
               >Criar minha conta</router-link
             ></b-nav-item
           >
           <b-nav-item>
-            <router-link v-if="!loggedIn" to="/login"
-              >Entrar</router-link
-            ></b-nav-item
+            <router-link to="/login">Entrar</router-link></b-nav-item
           >
           <!-- ROTAS PRIVADAS -->
 
@@ -97,7 +88,7 @@
             ></b-nav-item
           >
           <b-nav-item>
-            <router-link v-if="getPecu" class="brancoo" to="/perfilpecuarista"
+            <router-link class="brancoo" to="/perfilpecuarista"
               >Perfil</router-link
             ></b-nav-item
           >

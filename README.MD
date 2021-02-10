@@ -13,11 +13,15 @@
 
 ### 💻 NUXT FOOD APP. <a href="https://github.com/gustavobacellarladeira/Vue.js-My-Projects/tree/main/Vue.js-Nuxt.js--Food-%20App">Go to the project !</a>
 
+[🚀 Netlify ](https://nuxt-food.netlify.app/)
 <br>
 <br>
 
-![Pagina](./github/React-CRUD-1.gif)
-![Pagina](./github/React-CRUD-2.gif)
+![Pagina](./github/foodAp1.gif)
+
+<hr>
+
+![Pagina](./github/nuxtfood2.gif)
 
 <br>
 <br>
@@ -26,12 +30,12 @@
 <br>
 <br>
 
-### 💻 Interligado <a href="https://github.com/gustavobacellarladeira/Vue.js-My-Projects/tree/main/Interligado">Go to the project !</a>
+### 💻 Interligado. Made with vue.js(frontEnd) and Java(backEnd) and Postgresql(database) <a href="https://github.com/gustavobacellarladeira/Vue.js-My-Projects/tree/main/Interligado">Go to the project !</a>
 
 <br>
 <br>
 
-![Pagina](./github/Spage.gif)
+![Pagina](./github/interligado.gif)
 
 <br>
 <br>
